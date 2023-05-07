@@ -1,0 +1,59 @@
+.FooterContainer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom:0;
+    height: 60px;
+    width: 100vw;
+    background-color: #181818;
+    color: white;
+    
+}
+
+.footerLeft{
+    flex: 0.3;
+    display: flex;
+    align-self: center;
+    max-width: 300px;
+
+}
+
+.coverImg{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+    
+}
+.footerimgContainer{
+
+}
+
+.footerCenter{
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+
+}
+
+.shuffle, .repeat{
+    color: #00ff00;
+
+}
+
+.shuffle:hover, .repeat:hover, .icon:hover{
+    transition: transform 200ms ease-in-out !important;
+
+    transform: scale(1.2) !important;
+
+}
+
+.footerRight{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 35px;
+}

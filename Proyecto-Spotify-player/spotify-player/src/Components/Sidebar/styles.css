@@ -1,0 +1,37 @@
+.SidebarContainer {
+
+    flex: 0.2;
+    background-color: black;
+    min-width: 240px;
+    color: #fff;
+
+}
+.sbImage{
+    height: 70px;
+    min-width: 230px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.Playlist{
+    margin: 5px 10px;
+
+}
+.sbLine{
+    border: 1px solid smokegray;
+    width: 90%;
+    margin: 10px auto;
+}
+.Options{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    height: 40px;
+    cursor: pointer;
+    transition: 250ms color ease-in;
+}
+.Options:hover{
+    color: white;
+}
+

@@ -1,0 +1,21 @@
+.loginContainer {
+  display: grid;
+  place-items:center;
+  height:100vh;
+  background:#000;
+
+}
+.logoImage {
+    width: 100%;
+}
+
+.loginButton {
+  background: #fff;
+  padding: 20px;
+  background-color: #1db954;
+  border-radius: 90px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;  
+}

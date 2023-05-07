@@ -1,0 +1,114 @@
+.bodyContainer {
+    flex: 0.8;
+    background: linear-gradient(#340034, #000);
+    color: #fff;
+    padding: 30px;
+    overflow-y: overlay;   
+}
+.bodyContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.Headerleft{
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+    min-width: 75px;
+    background-color: #ffff;
+    color: #181818;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.inptBuscar{
+    border: none;
+    width: 100%;
+}
+
+.HeaderRight{
+    display: flex;
+    align-items: center;
+}
+.avatarName{
+    margin-left: 15px;
+}
+
+.Info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+
+}
+
+.imgBannerPL{
+    width: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px #000;
+}
+.infoText {
+   flex: 1;
+
+}
+
+.songsList{
+    margin: 20px -20px;    
+}
+
+.bodyIcons{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+
+}
+
+.playBT, .heartIcon, .moreIcon{
+    margin: 20px 0 20px 20px;
+    cursor: pointer;
+}
+
+
+
+.playBT:hover{
+    transform: scale(1.1) !important ;
+    transition: transform 200ms ease-in-out;
+}
+
+.songRowContainer{
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    z-index: 90;
+    color: #fff
+
+}
+.songRowContainer:hover{
+    cursor: pointer;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.trackImgs{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 2px;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+
+}
+
+.songInfo{
+    margin-left: 20px;
+
+}
+.details{
+    margin-top: 3px;
+    color: lightgray;
+}
