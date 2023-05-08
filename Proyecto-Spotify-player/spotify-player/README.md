@@ -3,10 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 need to install the following dependencies:
 
-npm i react
-npm install @reduxjs/toolkit
-npm install @mui/material @emotion/react @emotion/styled
-npm i spotify-web-api-js
+#npm i react
+#npm install @reduxjs/toolkit
+#npm install @mui/material @emotion/react @emotion/styled
+#npm i spotify-web-api-js
 
 
 
