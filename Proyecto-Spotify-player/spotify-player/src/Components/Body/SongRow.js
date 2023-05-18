@@ -1,19 +1,13 @@
 import React from 'react';
 import "./styles.css";
 
-const SongRow = ({track}) => {
+const SongRow = ({items, img}) => {
   return (
     <div className='songRowContainer'>
-        <img className='trackImgs' src={track.album.images[0].url} alt='album'/>
+        <img className='trackImgs' src={img} alt='Playlists'/>
         <div className='songInfo'>
-            <h4>{track.name}</h4>
-            <p>{
-                track.artists.map(artist => artist.name).join(" , ")    
-            }
-            {
-                track.album.name
-            }
-        </p>
+            <h4>{items}</h4>
+
         </div>
     </div>
   )

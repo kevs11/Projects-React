@@ -12,12 +12,13 @@ const Header = () => {
   return (
     <div className='headerContainer'>
         <div className="Headerleft">
+            {/*<TrackSearchResult/>*/}
             <SearchIcon/>
             <input className='inptBuscar' type="text" placeholder='Search for Artist, Song or Other' />
         </div>
         <div className="HeaderRight">
             <Avatar src={user?.images[0]?.url} alt={user?.id}/>
-            <h4 className='avatarName'>{user?.id}</h4>
+            <h4 className='avatarName'>{user?.display_name}</h4>
         </div>
     </div>
   )
